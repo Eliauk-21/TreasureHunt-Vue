@@ -11,5 +11,6 @@ export default defineConfig({
     outDir: 'dist',
     assetsInclude: ['**/*.mp3']
   },
-  publicDir: 'public'
+  publicDir: 'public',
+  base: '/TreasureHunt-Vue/' // 添加这一行，替换为你的仓库名
 })
